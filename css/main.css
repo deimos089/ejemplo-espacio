@@ -1,0 +1,106 @@
+/*
+color negro: #161616
+color blanco_ #fafafa
+color naranja: #orangered
+ */
+
+/*Globales */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Fin Globales */
+
+/* Componentes */
+
+title {
+    font-family: 'Roboto Mono', monospace;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.separador {
+    display: block;
+    width: 75px;
+    border-top: 3px solid orangered;
+    margin: 1rem auto;
+    border-radius: 50px;
+}
+
+.separador--white {
+    border-color: whitesmoke;
+}
+.button {
+    display: inline-block;
+    padding: 0.7rem 1.8rem;
+    background-color: orangered;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5rem;
+    font-weight: bold;
+}
+
+.button--white {
+    background-color: whitesmoke;
+    color: #191919;
+}
+.button--margin-top {
+    margin-top: 1.8rem;
+}
+
+.button:hover {
+    background-color: darkorange;
+    color: whitesmoke;
+    box-shadow: 1rem 0 2rem gray;
+}
+
+
+/*Fin Componentes */
+
+/*hero */
+.hero {
+    padding: 5rem 0;
+    text-align: center;
+    background-image: url(../img/espacio.webp);
+    background-size: cover;
+    background-position: 0 0%;
+}
+.hero__title {
+    font-size:2.2rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-bottom: 0;
+}
+
+.hero__text {
+    color: whitesmoke;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+/* Fin hero */
+
+/* Info */
+.info {
+    padding: 5rem 0;
+    background-color: #191919;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.info__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+info__text {
+    color: whitesmoke;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+/* Fin Info */
